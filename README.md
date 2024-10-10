@@ -44,17 +44,16 @@ An efficient and modern Windows-based multithreaded HTTP server utilizing COM in
 | ![Client Requesting](image/client.png) |
 |:----------------------------------------:|
 | ![Client Requesting](image/client2.png) |
-|:----------------------------------------:|
 | **Client Request**: Captures and logs the details of HTTP requests made by clients, such as page requests or API calls|
-| [REQUEST] GET /index.html HTTP/1.1. |
+[REQUEST] GET /index.html HTTP/1.1.
 
 | ![Server Log](image/log.png) |
 |:----------------------------------------:|
 | **Server Response**: Logs the HTTP responses sent back to clients, indicating what content or data was provided in response to their requests|
-| [RESPONSE] HTTP/1.1 200  |
+[RESPONSE] HTTP/1.1 200
 
 | **Error Log**: Records any errors encountered during operation, such as binding failures or connection issues, to assist in troubleshooting.
-| [ERROR] Bind failed with error: 10048 |
+[ERROR] Bind failed with error: 10048
 
 ## 🛠️ Technologies Used
 
