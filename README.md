@@ -38,9 +38,8 @@ An efficient and modern Windows-based multithreaded HTTP server utilizing COM in
 
 | ![Server Listening](image/server.png) |
 |:----------------------------------------:|
-| **Server Status**: Displays when the server is actively listening for incoming client connections, confirming readiness to handle request |
-| Server listening on port 8081.. |
-| **Client Connected**: Logs the connection of each client, showing their IP address to monitor client activity|
+| **Server Status**: Displays when the server is actively listening for incoming client connections, confirming readiness to handle request Server listening on port 8081..
+  **Client Connected**: Logs the connection of each client, showing their IP address to monitor client activity |
 
 | ![Client Requesting](image/client.png) |
 |:----------------------------------------:|
