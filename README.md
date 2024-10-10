@@ -38,19 +38,24 @@ An efficient and modern Windows-based multithreaded HTTP server utilizing COM in
 
 | ![Server Listening](image/server.png) |
 |:----------------------------------------:|
-| **Animated GUI Website**: Serves a modern, animated homepage with interactive elements. |
+| **Server Status**: Displays when the server is actively listening for incoming client connections, confirming readiness to handle request |
+| Server listening on port 8081.. |
+| **Client Connected**: Logs the connection of each client, showing their IP address to monitor client activity|
 
-| ![Client Requesting](client/client.png) |
+| ![Client Requesting](image/client.png) |
 |:----------------------------------------:|
-| **Animated GUI Website**: Serves a modern, animated homepage with interactive elements. |
-
-| ![Client Requesting](client/client2.png) |
+| ![Client Requesting](image/client2.png) |
 |:----------------------------------------:|
-| **Animated GUI Website**: Serves a modern, animated homepage with interactive elements. |
+| **Client Request**: Captures and logs the details of HTTP requests made by clients, such as page requests or API calls|
+| [REQUEST] GET /index.html HTTP/1.1. |
 
 | ![Server Log](image/log.png) |
 |:----------------------------------------:|
-| **Animated GUI Website**: Serves a modern, animated homepage with interactive elements. |
+| **Server Response**: Logs the HTTP responses sent back to clients, indicating what content or data was provided in response to their requests|
+| [RESPONSE] HTTP/1.1 200  |
+
+| **Error Log**: Records any errors encountered during operation, such as binding failures or connection issues, to assist in troubleshooting.
+| [ERROR] Bind failed with error: 10048 |
 
 ## 🛠️ Technologies Used
 
