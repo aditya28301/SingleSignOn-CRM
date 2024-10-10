@@ -35,10 +35,22 @@ An efficient and modern Windows-based multithreaded HTTP server utilizing COM in
 ---
 
 ## 🎨 Screenshots
+
 | ![Server Listening](image/server.png) |
+|:----------------------------------------:|
+| **Animated GUI Website**: Serves a modern, animated homepage with interactive elements. |
+
 | ![Client Requesting](client/client.png) |
+|:----------------------------------------:|
+| **Animated GUI Website**: Serves a modern, animated homepage with interactive elements. |
+
 | ![Client Requesting](client/client2.png) |
+|:----------------------------------------:|
+| **Animated GUI Website**: Serves a modern, animated homepage with interactive elements. |
+
 | ![Server Log](image/log.png) |
+|:----------------------------------------:|
+| **Animated GUI Website**: Serves a modern, animated homepage with interactive elements. |
 
 ## 🛠️ Technologies Used
 
