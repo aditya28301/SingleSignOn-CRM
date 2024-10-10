@@ -36,7 +36,8 @@ An efficient and modern Windows-based multithreaded HTTP server utilizing COM in
 
 ## 🎨 Screenshots
 | ![Server Listening](image/server.png) |
-| ![Client Requesting](client/animated_gui.png) |
+| ![Client Requesting](client/client.png) |
+| ![Client Requesting](client/client2.png) |
 | ![Server Log](image/log.png) |
 
 ## 🛠️ Technologies Used
