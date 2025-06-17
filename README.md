@@ -1,53 +1,62 @@
 # SingleSignOn-CRM
 
-SingleSignOn-CRM is a desktop CRM (Customer Relationship Management) application built using Qt and C++. The application integrates Google OAuth 2.0 to enable secure login using a Google account, eliminating the need for password management. The goal of this project is to provide a simple and modular desktop CRM system for learning, experimentation, and extension.
-
-This project uses the Qt framework for building cross-platform GUI and networking components. It features a custom-built local HTTP server that listens for the OAuth redirect from Google and processes authentication securely within the app itself.
+SingleSignOn-CRM is a desktop CRM (Customer Relationship Management) application built using Qt and C++. It allows users to log in securely using their Google account via OAuth 2.0, and access a simple, clean CRM dashboard. The application emphasizes a responsive and modern UI experience, built using Qt Widgets, with support for rich visuals and optional animations.
 
 ---
 
-## 🧩 Key Features
+## 🖼️ GUI Experience
 
-### 🔐 Google OAuth 2.0 Integration
-The app uses Google's OAuth 2.0 protocol to authenticate users securely. When the login button is clicked, the user's browser opens Google's login page, and after successful login, Google redirects back to a localhost server handled by the app itself.
+This project offers a native desktop UI, designed with a focus on clarity, responsiveness, and modularity. Below are the major GUI components:
 
-### 🖥️ Qt-based Graphical Interface
-The user interface is created using Qt Widgets. It's designed to be clean, responsive, and extensible. You can easily modify or add new pages like customer dashboards, analytics, or contact forms.
+- ✅ **Login Window with Google OAuth**  
+  Opens the system browser to authenticate with Google, and displays clear status messages after login.
 
-### 📊 CRM Dashboard Module
-Once logged in, users are taken to a basic CRM dashboard screen. This screen can be expanded to include client records, data tables, and other CRM-related tools. The dashboard is implemented in a modular way so new widgets or components can be added easily.
+- ✅ **Dashboard Panel with Tabs or Sections**  
+  Organized into cards/sections like:
+  - Profile Overview
+  - Customer Summary
+  - Task Reminders
 
-### 🧪 Lightweight Local Server for OAuth Redirect
-A small embedded HTTP server is included in the application. It listens on `localhost:8080` to catch the OAuth redirect from Google and extract the authorization code. This avoids needing to host any backend services.
+- ✅ **Animated Transitions (Optional)**  
+  You can enable smooth fade-in transitions or sliding panels using `QPropertyAnimation` or `QGraphicsOpacityEffect`.
 
-### 🔧 Modular and Clean Codebase
-The source code is organized by functionality: login logic, OAuth handler, and dashboard. It’s easy to read and modify. The code follows object-oriented principles and uses modern C++ standards.
+- ✅ **Custom Styling**  
+  Styled with Qt's built-in stylesheet system (`QSS`) to resemble modern UI themes.
 
----
+> Screenshots will be updated soon.
 
-## 🖼️ GUI Screenshots (Coming Soon)
-
-> Once you've added your screenshots, you can place them in a folder named `/images` and update the links below.
-
-- **Login Page**  
-  _[Image Placeholder]_  
-  ![Login Screen](images/login_screen.png)
-
-- **CRM Dashboard**  
-  _[Image Placeholder]_  
-  ![Dashboard](images/dashboard.png)
+![Login GUI](images/login_screen.png)
+![Dashboard GUI](images/dashboard.png)
 
 ---
 
-## 🛠️ How to Build the Project
+## 🔐 Key Features
 
-### 📋 Prerequisites
-To build and run the project, make sure you have the following installed:
-- Qt 5 or Qt 6 (with Qt Creator or `qmake` and/or CMake)
-- A C++17 compatible compiler (GCC, Clang, or MSVC)
-- OpenSSL (required for OAuth HTTPS communication)
+### 1. Google OAuth 2.0 Login  
+Secure sign-in using your Google account with support for desktop application authentication flow.
 
-### 🧰 Option 1: Build Using CMake (Recommended)
+### 2. Responsive Qt GUI  
+A lightweight, native UI designed with Qt Widgets — responsive across platforms (Windows/Linux/macOS).
+
+### 3. Built-in HTTP Server  
+A local HTTP server listens on `localhost:8080` to handle Google OAuth redirects securely, without requiring a backend service.
+
+### 4. Modular CRM Dashboard  
+Once authenticated, the app transitions to a dashboard window. This dashboard is split into components, and is ready for CRM features like customer info, messages, and task reminders.
+
+### 5. UI Animation Support (Optional)  
+With `QPropertyAnimation` and `QGraphicsOpacityEffect`, you can animate widget entry, loading transitions, or panel switches.
+
+---
+
+## ⚙️ Build Instructions
+
+### Requirements
+- **Qt 5.15+** or **Qt 6+**
+- C++17-compatible compiler
+- OpenSSL (needed for HTTPS token requests)
+
+### Using CMake
 ```bash
 mkdir build
 cd build
