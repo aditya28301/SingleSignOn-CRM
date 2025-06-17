@@ -372,6 +372,7 @@ FodyWeavers.xsd
 *.qbs.user.*
 
 # Ignore build folders
+build/
 build-*/
 *.o
 *.obj
