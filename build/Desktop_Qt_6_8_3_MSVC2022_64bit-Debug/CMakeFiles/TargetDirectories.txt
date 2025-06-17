@@ -1,5 +1,0 @@
-C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/CMakeFiles/Login_Page.dir
-C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/CMakeFiles/edit_cache.dir
-C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/CMakeFiles/Login_Page_autogen_timestamp_deps.dir
-C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/CMakeFiles/Login_Page_autogen.dir
