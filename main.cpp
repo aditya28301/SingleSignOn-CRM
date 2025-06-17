@@ -1,24 +1,28 @@
-// main.cpp
-#include "HttpServer.hpp"
-#include <iostream>
+#include "login.h"
+#include <Windows.h>
+#include "search_customer.h"
+#include "CRM_Dashboard.h"
 
-int main() {
-    IHttpServer* server = new HttpServer();
+int main(int argc, char* argv[]) {
+    SetProcessDPIAware();
+    QApplication app(argc, argv);
 
-    if (server->StartServer(8081) == S_OK) {
-        std::cout << "Server started on port 8081." << std::endl;
+    login loginWindow;
+    CRM_Dashboard* customerWindow = nullptr;
+
+    QObject::connect(&loginWindow, &QDialog::accepted, [&]() {
+        if (!customerWindow) {
+            customerWindow = new CRM_Dashboard();
+            customerWindow->show();
+        }
+    });
+
+    loginWindow.show();
+    int result = app.exec();
+
+    if (customerWindow) {
+        delete customerWindow;
     }
-    else {
-        std::cout << "Failed to start server." << std::endl;
-        server->Release();
-        return -1;
-    }
 
-    std::cout << "Press Enter to stop the server..." << std::endl;
-    std::cin.get();
-
-    server->StopServer();
-    server->Release();
-
-    return 0;
+    return result;
 }
