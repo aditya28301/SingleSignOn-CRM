@@ -10,6 +10,7 @@
 #include <QVariantMap>
 #include <QNetworkReply>
 
+
 class CustomOAuthHandler : public QAbstractOAuthReplyHandler
 {
     Q_OBJECT

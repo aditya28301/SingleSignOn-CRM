@@ -1,45 +1,48 @@
 #ifndef LOGIN_H
 #define LOGIN_H
 
-#include "oauthlogin.h"
-#include <QObject>
 #include <QDialog>
 #include <QLabel>
 #include <QLineEdit>
 #include <QPushButton>
 #include <QHBoxLayout>
-#include <QBoxLayout>
-#include <QApplication>
+#include <QVBoxLayout>
+#include <QObject>
+#include <QMessageBox>
+#include <QString>
+#include "oauthlogin.h"
 
-class search_customer;
-class login :public QDialog
-{
+class login : public QDialog {
     Q_OBJECT
 
-public:
-    login(QWidget* parent = 0);
-    ~login();
-    void showCustomerSearch();
-
-signals:
-    void proceedToMainApp();
-
-private slots:
-    void enabledLoginButton();
-    void submit_request();
-
-private:
-    OAuthLogin* oauth;
     QLabel* username;
     QLabel* password;
     QLineEdit* enter_username;
     QLineEdit* enter_password;
     QPushButton* submit;
     QPushButton* exit;
+    OAuthLogin* oauth;
+
     static bool isUsernameEntered;
     static bool isPasswordEntered;
-    search_customer* customerWindow = nullptr;
+
     QString m_userEmail;
     QString m_userName;
+
+public:
+    explicit login(QWidget* parent = nullptr);
+    ~login();
+
+    // Getter methods for user information
+    QString getUserEmail() const { return m_userEmail; }
+    QString getUserName() const { return m_userName; }
+
+    void showCustomerSearch();
+
+private slots:
+    void submit_request();
+    void enabledLoginButton();
+    void updateLoginButton();
 };
+
 #endif // LOGIN_H

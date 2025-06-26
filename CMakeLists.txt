@@ -11,6 +11,8 @@ find_package(Qt6 REQUIRED COMPONENTS
     Network
     NetworkAuth  # This enables 'auth'
     PrintSupport
+    Charts
+    Graphs
 )
 
 qt_standard_project_setup()
@@ -26,6 +28,14 @@ add_executable(Login_Page
     customoauthhandler.h
     customoauthhandler.cpp
     CRM_Dashboard.h CRM_Dashboard.cpp
+    qt.conf
+    ordermanager.h ordermanager.cpp
+    customer_search.h customer_search.cpp
+
+    order.h order.cpp
+    orderwidget.h orderwidget.cpp
+    servercontrol.h servercontrol.cpp
+    servercontrolwidget.h servercontrolwidget.cpp
 )
 
 target_link_libraries(Login_Page PRIVATE
@@ -35,4 +45,6 @@ target_link_libraries(Login_Page PRIVATE
     Qt6::Network
     Qt6::NetworkAuth
     Qt6::PrintSupport
+    Qt6::Charts
+    Qt6::Graphs
 )
