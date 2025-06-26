@@ -1,0 +1,62 @@
+# ninja log v5
+67	509	7726111889458074	Login_Page_autogen/timestamp	16f07b686e8b5c2a
+6579	9703	7725832712748284	CMakeFiles/Login_Page.dir/servercontrol.cpp.obj	bb76fbc70536a323
+67	509	7726111889458074	Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+2281	6579	7725832680490615	CMakeFiles/Login_Page.dir/oauthlogin.cpp.obj	8fd317bfccb421ce
+67	509	7726111889458074	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/timestamp	16f07b686e8b5c2a
+67	509	7726111889458074	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+2386	6694	7725832681685074	CMakeFiles/Login_Page.dir/order.cpp.obj	699c1f742c6c1121
+2313	6695	7725832682528510	CMakeFiles/Login_Page.dir/customoauthhandler.cpp.obj	4f972fd91fffb56
+2298	6264	7725832677282216	CMakeFiles/Login_Page.dir/search_customer.cpp.obj	e032378868d7444e
+2264	7012	7725832685564458	CMakeFiles/Login_Page.dir/login.cpp.obj	ea8c8309bd7b2c4a
+2349	6674	7725832681835060	CMakeFiles/Login_Page.dir/ordermanager.cpp.obj	7b971e7ee6f7f5b6
+669	5067	7726107778921007	CMakeFiles/Login_Page.dir/main.cpp.obj	1406a500da1e5975
+475	3137	7726090684171285	CMakeFiles/Login_Page.dir/orderwidget.cpp.obj	361dc4a5b2afcd7d
+6674	10086	7725832716566260	CMakeFiles/Login_Page.dir/servercontrolwidget.cpp.obj	5de89f0c31a4bd43
+545	5264	7726112021714237	CMakeFiles/Login_Page.dir/CRM_Dashboard.cpp.obj	848639296461b0d
+1389	8676	7726085557250301	CMakeFiles/Login_Page.dir/Login_Page_autogen/mocs_compilation.cpp.obj	fcf8e5c12c018de5
+51	106	0	CMakeFiles/clean.additional	baedbe210acaa455
+107	138	0	clean	7c4ab7700f810e4a
+5264	5865	7726112026917562	Login_Page.exe	d8b7de735185b3cf
+1175	6546	7726072206524288	CMakeFiles/Login_Page.dir/customer_search.cpp.obj	eb75afad86100654
+87	522	7726113815190093	Login_Page_autogen/timestamp	16f07b686e8b5c2a
+87	522	7726113815190093	Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+87	522	7726113815190093	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/timestamp	16f07b686e8b5c2a
+87	522	7726113815190093	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+565	5831	7726113898102058	CMakeFiles/Login_Page.dir/CRM_Dashboard.cpp.obj	848639296461b0d
+5832	6354	7726113902534545	Login_Page.exe	d8b7de735185b3cf
+124	1388	7726415839275129	Login_Page_autogen/timestamp	16f07b686e8b5c2a
+124	1388	7726415839275129	Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+124	1388	7726415839275129	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/timestamp	16f07b686e8b5c2a
+124	1388	7726415839275129	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+1440	6827	7726415895994571	CMakeFiles/Login_Page.dir/login.cpp.obj	ea8c8309bd7b2c4a
+1415	7777	7726415905633616	CMakeFiles/Login_Page.dir/main.cpp.obj	1406a500da1e5975
+1390	9301	7726415920844118	CMakeFiles/Login_Page.dir/Login_Page_autogen/mocs_compilation.cpp.obj	fcf8e5c12c018de5
+80	1045	7726417046460518	Login_Page_autogen/timestamp	16f07b686e8b5c2a
+80	1045	7726417046460518	Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+80	1045	7726417046460518	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/timestamp	16f07b686e8b5c2a
+80	1045	7726417046460518	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+1061	6221	7726417100328180	CMakeFiles/Login_Page.dir/main.cpp.obj	1406a500da1e5975
+1046	7559	7726417113674651	CMakeFiles/Login_Page.dir/Login_Page_autogen/mocs_compilation.cpp.obj	fcf8e5c12c018de5
+194	2692	7726417825643315	Login_Page_autogen/timestamp	16f07b686e8b5c2a
+194	2692	7726417825643315	Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+194	2692	7726417825643315	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/timestamp	16f07b686e8b5c2a
+194	2692	7726417825643315	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+2722	11966	7726417923594925	CMakeFiles/Login_Page.dir/main.cpp.obj	1406a500da1e5975
+2749	12877	7726417932869799	CMakeFiles/Login_Page.dir/CRM_Dashboard.cpp.obj	848639296461b0d
+2695	13658	7726417940667835	CMakeFiles/Login_Page.dir/Login_Page_autogen/mocs_compilation.cpp.obj	fcf8e5c12c018de5
+13658	14864	7726417950930236	Login_Page.exe	d8b7de735185b3cf
+41	531	7726421134667297	Login_Page_autogen/timestamp	16f07b686e8b5c2a
+41	531	7726421134667297	Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+41	531	7726421134667297	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/timestamp	16f07b686e8b5c2a
+41	531	7726421134667297	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+571	6385	7726421227683070	CMakeFiles/Login_Page.dir/CRM_Dashboard.cpp.obj	848639296461b0d
+6386	7205	7726421235017873	Login_Page.exe	d8b7de735185b3cf
+162	1682	7726426291754208	Login_Page_autogen/timestamp	16f07b686e8b5c2a
+162	1682	7726426291754208	Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+162	1682	7726426291754208	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/timestamp	16f07b686e8b5c2a
+162	1682	7726426291754208	C:/Users/aditydar/OneDrive - AMDOCS/Backup Folders/Documents/MSTC/QT Project/Login_Page/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/Login_Page_autogen/mocs_compilation.cpp	16f07b686e8b5c2a
+1725	7742	7726426355365903	CMakeFiles/Login_Page.dir/login.cpp.obj	ea8c8309bd7b2c4a
+1705	8821	7726426366372470	CMakeFiles/Login_Page.dir/main.cpp.obj	1406a500da1e5975
+1684	10514	7726426383295159	CMakeFiles/Login_Page.dir/Login_Page_autogen/mocs_compilation.cpp.obj	fcf8e5c12c018de5
+10514	11127	7726426388218439	Login_Page.exe	d8b7de735185b3cf
