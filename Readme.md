@@ -25,8 +25,6 @@ Runs on Windows, Linux, and macOS using Qt 5.15+ or Qt 6, with full desktop-leve
 
 ## 🎥 GUI Overview
 
-> _Screenshots and demo animations will be available soon (place images inside the `/images` folder)_
-
 | Login Page |  Google Auth  | Dashboard |
 |------------|-------------|-----------|
 | ![Login](images/login.png) | ![OAuth](images/oauth.png) | ![Dashboard](images/dashboard.png) | ![Dashboard](images/succesfull_login1.png) 
